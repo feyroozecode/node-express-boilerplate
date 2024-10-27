@@ -1,0 +1,123 @@
+Date : 2024-10-27 12:36:02
+Directory : /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master
+Total : 68 files,  3260 codes, 692 comments, 778 blanks, all 4730 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JavaScript         |         50 |      2,526 |        692 |        541 |      3,759 |
+| Markdown           |          4 |        435 |          0 |        203 |        638 |
+| YAML               |          6 |        150 |          0 |         18 |        168 |
+| JSON               |          4 |        117 |          0 |          4 |        121 |
+| JSON with Comments |          1 |         19 |          0 |          1 |         20 |
+| Docker             |          1 |          8 |          0 |          8 |         16 |
+| Ignore             |          2 |          5 |          0 |          3 |          8 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                       | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                          |         68 |      3,260 |        692 |        778 |      4,730 |
+| . (Files)                                                                                                                                  |         18 |        656 |          0 |        232 |        888 |
+| bin                                                                                                                                        |          1 |         87 |         10 |         15 |        112 |
+| src                                                                                                                                        |         39 |      1,143 |        681 |        217 |      2,041 |
+| src (Files)                                                                                                                                |          2 |         73 |         12 |         22 |        107 |
+| src/config                                                                                                                                 |          6 |        146 |          0 |         26 |        172 |
+| src/controllers                                                                                                                            |          3 |         89 |          0 |         18 |        107 |
+| src/docs                                                                                                                                   |          2 |        106 |          0 |          9 |        115 |
+| src/middlewares                                                                                                                            |          4 |         90 |          1 |         21 |        112 |
+| src/models                                                                                                                                 |          6 |        184 |         44 |         30 |        258 |
+| src/models (Files)                                                                                                                         |          3 |        107 |         19 |         14 |        140 |
+| src/models/plugins                                                                                                                         |          3 |         77 |         25 |         16 |        118 |
+| src/routes                                                                                                                                 |          4 |         79 |        495 |         33 |        607 |
+| src/routes/v1                                                                                                                              |          4 |         79 |        495 |         33 |        607 |
+| src/services                                                                                                                               |          5 |        229 |        122 |         32 |        383 |
+| src/utils                                                                                                                                  |          3 |         26 |          7 |          6 |         39 |
+| src/validations                                                                                                                            |          4 |        121 |          0 |         20 |        141 |
+| tests                                                                                                                                      |         10 |      1,374 |          1 |        314 |      1,689 |
+| tests/fixtures                                                                                                                             |          2 |         52 |          0 |         10 |         62 |
+| tests/integration                                                                                                                          |          3 |        993 |          0 |        236 |      1,229 |
+| tests/unit                                                                                                                                 |          4 |        315 |          1 |         63 |        379 |
+| tests/unit/middlewares                                                                                                                     |          1 |        137 |          0 |         32 |        169 |
+| tests/unit/models                                                                                                                          |          3 |        178 |          1 |         31 |        210 |
+| tests/unit/models (Files)                                                                                                                  |          1 |         49 |          0 |          9 |         58 |
+| tests/unit/models/plugins                                                                                                                  |          2 |        129 |          1 |         22 |        152 |
+| tests/utils                                                                                                                                |          1 |         14 |          0 |          5 |         19 |
++--------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                                                   | language           | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/.dockerignore                                     | Ignore             |          3 |          0 |          1 |          4 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/.eslintrc.json                                    | JSON with Comments |         19 |          0 |          1 |         20 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/.lintstagedrc.json                                | JSON               |          3 |          0 |          1 |          4 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/.prettierignore                                   | Ignore             |          2 |          0 |          2 |          4 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/.prettierrc.json                                  | JSON               |          4 |          0 |          1 |          5 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/.travis.yml                                       | YAML               |         20 |          0 |          1 |         21 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/CHANGELOG.md                                      | Markdown           |         47 |          0 |         40 |         87 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/CODE_OF_CONDUCT.md                                | Markdown           |         57 |          0 |         20 |         77 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/CONTRIBUTING.md                                   | Markdown           |         21 |          0 |         12 |         33 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/Dockerfile                                        | Docker             |          8 |          0 |          8 |         16 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/README.md                                         | Markdown           |        310 |          0 |        131 |        441 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/bin/createNodejsApp.js                            | JavaScript         |         87 |         10 |         15 |        112 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/docker-compose.dev.yml                            | YAML               |          5 |          0 |          2 |          7 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/docker-compose.prod.yml                           | YAML               |          5 |          0 |          2 |          7 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/docker-compose.test.yml                           | YAML               |          5 |          0 |          2 |          7 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/docker-compose.yml                                | YAML               |         28 |          0 |          5 |         33 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/ecosystem.config.json                             | JSON               |         15 |          0 |          1 |         16 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/jest.config.js                                    | JavaScript         |          9 |          0 |          1 |         10 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/package.json                                      | JSON               |         95 |          0 |          1 |         96 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/app.js                                        | JavaScript         |         40 |         12 |         16 |         68 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/config/config.js                              | JavaScript         |         59 |          0 |          6 |         65 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/config/logger.js                              | JavaScript         |         23 |          0 |          4 |         27 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/config/morgan.js                              | JavaScript         |         19 |          0 |          6 |         25 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/config/passport.js                            | JavaScript         |         26 |          0 |          5 |         31 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/config/roles.js                               | JavaScript         |         10 |          0 |          3 |         13 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/config/tokens.js                              | JavaScript         |          9 |          0 |          2 |         11 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/controllers/auth.controller.js                | JavaScript         |         50 |          0 |         10 |         60 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/controllers/index.js                          | JavaScript         |          2 |          0 |          1 |          3 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/controllers/user.controller.js                | JavaScript         |         37 |          0 |          7 |         44 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/docs/components.yml                           | YAML               |         87 |          0 |          6 |         93 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/docs/swaggerDef.js                            | JavaScript         |         19 |          0 |          3 |         22 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/index.js                                      | JavaScript         |         33 |          0 |          6 |         39 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/middlewares/auth.js                           | JavaScript         |         27 |          0 |          6 |         33 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/middlewares/error.js                          | JavaScript         |         36 |          1 |          8 |         45 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/middlewares/rateLimiter.js                    | JavaScript         |          9 |          0 |          3 |         12 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/middlewares/validate.js                       | JavaScript         |         18 |          0 |          4 |         22 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/models/index.js                               | JavaScript         |          2 |          0 |          1 |          3 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/models/plugins/index.js                       | JavaScript         |          2 |          0 |          1 |          3 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/models/plugins/paginate.plugin.js             | JavaScript         |         44 |         19 |          8 |         71 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/models/plugins/toJSON.plugin.js               | JavaScript         |         31 |          6 |          7 |         44 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/models/token.model.js                         | JavaScript         |         36 |          4 |          5 |         45 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/models/user.model.js                          | JavaScript         |         69 |         15 |          8 |         92 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/routes/v1/auth.route.js                       | JavaScript         |         15 |        264 |         13 |        292 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/routes/v1/docs.route.js                       | JavaScript         |         17 |          0 |          5 |         22 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/routes/v1/index.js                            | JavaScript         |         31 |          2 |          7 |         40 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/routes/v1/user.route.js                       | JavaScript         |         16 |        229 |          8 |        253 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/services/auth.service.js                      | JavaScript         |         66 |         27 |          7 |        100 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/services/email.service.js                     | JavaScript         |         36 |         22 |          6 |         64 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/services/index.js                             | JavaScript         |          4 |          0 |          1 |          5 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/services/token.service.js                     | JavaScript         |         76 |         38 |         10 |        124 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/services/user.service.js                      | JavaScript         |         47 |         35 |          8 |         90 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/utils/ApiError.js                             | JavaScript         |         13 |          0 |          2 |         15 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/utils/catchAsync.js                           | JavaScript         |          4 |          0 |          2 |          6 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/utils/pick.js                                 | JavaScript         |          9 |          7 |          2 |         18 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/validations/auth.validation.js                | JavaScript         |         52 |          0 |          9 |         61 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/validations/custom.validation.js              | JavaScript         |         19 |          0 |          3 |         22 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/validations/index.js                          | JavaScript         |          2 |          0 |          1 |          3 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/src/validations/user.validation.js                | JavaScript         |         48 |          0 |          7 |         55 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/tests/fixtures/token.fixture.js                   | JavaScript         |         12 |          0 |          3 |         15 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/tests/fixtures/user.fixture.js                    | JavaScript         |         40 |          0 |          7 |         47 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/tests/integration/auth.test.js                    | JavaScript         |        463 |          0 |        125 |        588 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/tests/integration/docs.test.js                    | JavaScript         |         13 |          0 |          2 |         15 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/tests/integration/user.test.js                    | JavaScript         |        517 |          0 |        109 |        626 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/tests/unit/middlewares/error.test.js              | JavaScript         |        137 |          0 |         32 |        169 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/tests/unit/models/plugins/paginate.plugin.test.js | JavaScript         |         49 |          0 |         13 |         62 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/tests/unit/models/plugins/toJSON.plugin.test.js   | JavaScript         |         80 |          1 |          9 |         90 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/tests/unit/models/user.model.test.js              | JavaScript         |         49 |          0 |          9 |         58 |
+| /Users/ahmad/dev/wb_projects/node_projects/node_examples/node-express-boilerplate-master/tests/utils/setupTestDB.js                        | JavaScript         |         14 |          0 |          5 |         19 |
+| Total                                                                                                                                      |                    |      3,260 |        692 |        778 |      4,730 |
++--------------------------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
